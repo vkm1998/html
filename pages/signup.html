@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Navbar -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="signup.html">Signup</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Signup form -->
+        <section id="signup_form">
+            <h1>Create a free account</h1>
+            <form action="" method="POST">
+                <div>
+                    <label for="username">Enter your name</label>
+                    <input placeholder="Type your name here" maxlength="50" type="text" name="username" id="username">
+                </div>
+                <div>
+                    <label for="useremail">Enter your email</label>
+                    <input value="demo@dummy.com" type="email" name="useremail" id="useremail">
+                </div>
+                <div>
+                    <label for="userpassword">Choose a password</label>
+                    <input type="password" name="userpassword" id="userpassword">
+                </div>
+                <div>
+                    <label for="userdob">Date of birth</label>
+                    <input type="date" name="userdob" id="userdob">
+                </div>
+                <div>
+                    <label for="usergender">Gender</label>
+                    <input type="radio" name="usergender" id="usergender1"> Male
+                    <input type="radio" name="usergender" id="usergender2"> Female
+                    <input type="radio" name="usergender" id="usergender3"> Other
+                </div>
+                <div>
+                    <label for="userchoice">Choose Whatever</label>
+                    <select name="userchoice" id="userchoice">
+                        <option value="choice1">Choice One</option>
+                        <option value="choice2">Choice Two</option>
+                        <option value="choice3">Choice Three</option>
+                        <option value="choice4">Choice Four</option>
+                        <option value="choice5">Choice Five</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="useraddress">Address</label>
+                    <textarea name="useraddress" id="useraddress" cols="50" rows="4"></textarea>
+                </div>
+                <div>
+                    <p><input type="checkbox"> I agree to the terms and conditions</p>
+                </div>
+                <input type="reset">
+                <input type="submit" disabled>
+            </form>
+        </section>
+        <!-- Footer -->
+    </body>
+</html>
